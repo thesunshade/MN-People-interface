@@ -1,0 +1,76 @@
+.main-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.google-maps {
+  display: none;
+}
+
+#list-area {
+  overflow: auto;
+  width: 50vw;
+  height: 95vh;
+}
+#definition {
+  overflow: auto;
+  width: 50vw;
+  height: 95vh;
+  margin: 1rem;
+}
+
+dt {
+  display: inline-block;
+}
+
+dt:after {
+  content: "—";
+}
+
+dd {
+  margin: 0;
+}
+
+dfn {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.highlight {
+  color: red;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table-header {
+  position: sticky;
+  top: 1px;
+  color: white;
+  background-color: gray;
+}
+
+.different {
+  color: blue;
+}
+
+.not-found {
+  color: red;
+}
+
+.class-id:hover {
+  background-color: aquamarine;
+}
